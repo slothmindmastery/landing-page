@@ -2,14 +2,17 @@ body {
 display: flex;
 flex-direction: column;
 justify-content: space-between;
+font-family: 'Roboto', sans-serif;
 }
 
 .header {
-
+  display: flex;
+  align-items: center;
+  background-color:#1F2937;
 }
 
 .hero {
-
+  background-color: #1F2937;
 }
 
 .information {
@@ -25,5 +28,32 @@ justify-content: space-between;
 }
 
 .footer {
+  background-color: #1F2937;
 
+}
+
+.logo {
+  flex-grow: 1;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 0;
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 0;
+  gap: 32px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
 }
