@@ -1,0 +1,29 @@
+body {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.header {
+
+}
+
+.hero {
+
+}
+
+.information {
+
+}
+
+.testimonial {
+
+}
+
+.action {
+
+}
+
+.footer {
+
+}
