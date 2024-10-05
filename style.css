@@ -12,6 +12,8 @@ font-family: 'Roboto', sans-serif;
 }
 
 .hero {
+  display: flex;
+  justify-content: center;
   background-color: #1F2937;
 }
 
@@ -56,4 +58,17 @@ a {
   text-decoration: none;
   font-size: 18px;
   color: #E5E7EB;
+}
+
+.hero-info {
+  flex-basis: 40%;
+}
+
+.hero-image {
+  display: flex;
+  flex-basis: 40%;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  margin: 32px 56px;
 }
